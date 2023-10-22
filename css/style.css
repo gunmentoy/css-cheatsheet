@@ -21,6 +21,23 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:green;
+}
+
+a:vistied{
+  color:purple;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -84,4 +101,16 @@ body {
 
 .categories h2{
   text-align: center;
+}
+
+.categories ul{
+  padding:0;
+  list-style:square;
+  list-style:none;
+}
+
+.categories li{
+  padding-bottom: 5px;
+  border-bottom: ditted 1px #333;
+  list-style-image: url('../images/check.png');
 }
